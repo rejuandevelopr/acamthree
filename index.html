@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACAM Monitoring</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <!-- Nav Start -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img height="61" width="154" src="https://i.ibb.co/DQ2c8nr/image-3.png" alt="Brand_logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <form class="d-flex" role="search">
+            <button><i class="fa-solid fa-magnifying-glass" style="color: #868686;"></i></button>
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        </form>
+        </ul>
+        <div class="d-flex justify-contents-center in_responsive_main">
+            <div class="in_responsive">
+                <span style="font-size: 20px; display: inline-block;">Khairul Nizam</span>
+                <span style="font-size: 14px; display: inline-block;">Administrator</span>
+            </div>
+            <div class="ms-4">
+                <img clas="img-fluid" height="50" width="50" src="https://i.ibb.co/HYSg8v2/Ellipse-36.png" alt="Ellipse">
+            </div>
+        </div>
+        
+      </div>
+    </div>
+  </nav>
+  <!-- Nav end -->
+
+
+  <!-- Button Section Start -->
+  <section>
+    <div class="container">
+        <div class="button_main">
+            <button class="btn">All</button>
+            <button class="btn active">Door Control</button>
+            <button class="btn">CCTV Camea</button>
+            <button class="btn">FR Tablet</button>
+            <button class="btn">Wireless Padlock</button>
+            <button class="btn">UVSS</button>
+            <button class="btn">Fire Alarm</button>
+        </div>
+
+    </div>
+  </section>
+
+  <!-- Site Start -->
+  <section class="mt-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="site_main">
+                   <div class="site_head shadow-sm">
+                    <h3>Site Navigation</h3>
+                   </div>
+                   <div class="site_button">
+                    <button class="btn"><i class="fa-light fa-plus fa-xl" style="color: #000000;margin-right: 8px;margin-bottom: 3px;"></i> Zone</button>
+                    <button class="btn"><i class="fa-light fa-plus fa-xl" style="color: #000000;margin-right: 8px;margin-bottom: 3px;"></i> Bulding</button>  
+                    <button class="btn"><i class="fa-light fa-plus fa-xl" style="color: #000000;margin-right: 8px;margin-bottom: 3px;"></i> Level 1</button> 
+                    <button class="btn"><i class="fa-light fa-plus fa-xl" style="color: #000000;margin-right: 8px;margin-bottom: 3px;"></i> Area A</button>
+                    <button class="btn"><i class="fa-light fa-plus fa-xl" style="color: #000000;margin-right: 8px;margin-bottom: 3px;"></i> Area B</button>
+                    <button class="btn"><i class="fa-light fa-plus fa-xl" style="color: #000000;margin-right: 8px;margin-bottom: 3px;"></i> Area C</button>
+                    <button class="btn"><i class="fa-light fa-plus fa-xl" style="color: #000000;margin-right: 8px;margin-bottom: 3px;"></i> Area D</button>
+                    <button class="btn"><i class="fa-light fa-plus fa-xl" style="color: #000000;margin-right: 8px;margin-bottom: 3px;"></i> Area E</button>
+                    <button class="btn"><i class="fa-light fa-plus fa-xl" style="color: #000000;margin-right: 8px;margin-bottom: 3px;"></i> Area F</button>
+                    <button class="btn"><i class="fa-light fa-plus fa-xl" style="color: #000000;margin-right: 8px;margin-bottom: 3px;"></i> Area G</button>
+                   </div>
+                </div>
+                <div class="site_main mt-2">
+                    <div class="sitefooter_btn">
+                        <div class="dropdown mt-2">
+                            <button class="btn btn-secondary dropdown-toggle secure_dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Secure Door <i class="fa-solid fa-chevron-down" style="color: #8c8c8c;margin-left: 4%;"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                    </div>
+                    </div>
+                    <div class="sitefooter_btn">
+                        <button class="btn">Indictor</button>
+                        <button class="btn">Secure Door</button>
+                        <button class="btn">Open Door</button>
+                        <button class="btn">Alarm Event</button>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-lg-9">
+                <div class="door_container">
+                    
+                          <div class="door_grid margin_sm">
+                            <div class="grid_one">
+                                <div class="door_main shadow-sm text-center">
+                                    <img class="img-fluid" src="./image/doorimage.png" alt="Dooricon">
+                                    <div class="dropdown mt-2">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Door 1
+                                        </button>
+                                        <ul class="dropdown-menu text-center">
+                                          <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">View</a></li>
+                                          <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModaltwo">Open</a></li>
+                                          <li><a class="dropdown-item" href="#">Unlock 20 Seconds</a></li>
+                                          <li><a class="dropdown-item" href="#">Normalize</a></li>
+                                        </ul>
+                                      </div>
+                                </div>
+                            </div>
+                            <div class="grid_two">
+                                <div class="door_main shadow-sm text-center">
+                                    <img class="img-fluid" src="./image/doorimage.png" alt="Dooricon">
+                                    <div class="dropdown mt-2">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Door 2
+                                        </button>
+                                        <ul class="dropdown-menu text-center">
+                                          <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">View</a></li>
+                                          <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModaltwo">Open</a></li>
+                                          <li><a class="dropdown-item" href="#">Unlock 20 Seconds</a></li>
+                                          <li><a class="dropdown-item" href="#">Normalize</a></li>
+                                        </ul>
+                                      </div>
+                                </div>
+                            </div>
+                            <div class="grid_three">
+                                <div class="door_main shadow-sm text-center">
+                                    <img class="img-fluid" src="./image/doorimage.png" alt="Dooricon">
+                                    <div class="dropdown mt-2">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Door 3
+                                        </button>
+                                        <ul class="dropdown-menu text-center">
+                                          <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">View</a></li>
+                                          <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModaltwo">Open</a></li>
+                                          <li><a class="dropdown-item" href="#">Unlock 20 Seconds</a></li>
+                                          <li><a class="dropdown-item" href="#">Normalize</a></li>
+                                        </ul>
+                                      </div>
+                                </div>
+                            </div>
+                            <div class="grid_four">
+                                <div class="door_main shadow-sm text-center">
+                                    <img class="img-fluid" src="./image/doorimage.png" alt="Dooricon">
+                                    <div class="dropdown mt-2">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Door 4
+                                        </button>
+                                        <ul class="dropdown-menu text-center">
+                                          <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">View</a></li>
+                                          <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModaltwo">Open</a></li>
+                                          <li><a class="dropdown-item" href="#">Unlock 20 Seconds</a></li>
+                                          <li><a class="dropdown-item" href="#">Normalize</a></li>
+                                        </ul>
+                                      </div>
+                                </div>
+                            </div>
+                            <div class="grid_five">
+                                <div class="door_main shadow-sm text-center">
+                                    <img class="img-fluid" src="./image/doorimage.png" alt="Dooricon">
+                                    <div class="dropdown mt-2">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Door 5
+                                        </button>
+                                        <ul class="dropdown-menu text-center">
+                                          <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">View</a></li>
+                                          <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModaltwo">Open</a></li>
+                                          <li><a class="dropdown-item" href="#">Unlock 20 Seconds</a></li>
+                                          <li><a class="dropdown-item" href="#">Normalize</a></li>
+                                        </ul>
+                                      </div>
+                                </div>
+                            </div>
+
+                            <div class="grid_six">
+                                <div class="door_main shadow-sm text-center">
+                                    <img class="img-fluid" src="./image/doorimage.png" alt="Dooricon">
+                                    <div class="dropdown mt-2">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Door 6
+                                        </button>
+                                        <ul class="dropdown-menu text-center">
+                                          <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">View</a></li>
+                                          <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModaltwo">Open</a></li>
+                                          <li><a class="dropdown-item" href="#">Unlock 20 Seconds</a></li>
+                                          <li><a class="dropdown-item" href="#">Normalize</a></li>
+                                        </ul>
+                                      </div>
+                                </div>
+                            </div>
+                            <div class="grid_seven">
+                                <div class="door_main shadow-sm text-center">
+                                    <img class="img-fluid" src="./image/doorimage.png" alt="Dooricon">
+                                    <div class="dropdown mt-2">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Door 7
+                                        </button>
+                                        <ul class="dropdown-menu text-center">
+                                          <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">View</a></li>
+                                          <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModaltwo">Open</a></li>
+                                          <li><a class="dropdown-item" href="#">Unlock 20 Seconds</a></li>
+                                          <li><a class="dropdown-item" href="#">Normalize</a></li>
+                                        </ul>
+                                      </div>
+                                </div>
+                            </div>
+
+                            <div class="grid_eight">
+                                <div class="door_main shadow-sm text-center">
+                                    <img class="img-fluid" src="./image/doorimage.png" alt="Dooricon">
+                                    <div class="dropdown mt-2">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Door 8
+                                        </button>
+                                        <ul class="dropdown-menu text-center">
+                                          <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">View</a></li>
+                                          <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModaltwo">Open</a></li>
+                                          <li><a class="dropdown-item" href="#">Unlock 20 Seconds</a></li>
+                                          <li><a class="dropdown-item" href="#">Normalize</a></li>
+                                        </ul>
+                                      </div>
+                                </div>
+                            </div>
+
+                            <div class="grid_nine">
+                                <div class="door_main shadow-sm text-center">
+                                    <img class="img-fluid" src="./image/doorimage.png" alt="Dooricon">
+                                    <div class="dropdown mt-2">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Door 9
+                                        </button>
+                                        <ul class="dropdown-menu text-center">
+                                          <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">View</a></li>
+                                          <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModaltwo">Open</a></li>
+                                          <li><a class="dropdown-item" href="#">Unlock 20 Seconds</a></li>
+                                          <li><a class="dropdown-item" href="#">Normalize</a></li>
+                                        </ul>
+                                      </div>
+                                </div>
+                            </div>
+
+                            <div class="grid_ten">
+                                <div class="door_main shadow-sm text-center">
+                                    <img class="img-fluid" src="./image/doorimage.png" alt="Dooricon">
+                                    <div class="dropdown mt-2">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Door 10
+                                        </button>
+                                        <ul class="dropdown-menu text-center">
+                                          <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">View</a></li>
+                                          <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModaltwo">Open</a></li>
+                                          <li><a class="dropdown-item" href="#">Unlock 20 Seconds</a></li>
+                                          <li><a class="dropdown-item" href="#">Normalize</a></li>
+                                        </ul>
+                                      </div>
+                                </div>
+                            </div>
+
+                            <div class="grid_elvn">
+                                <div class="door_main shadow-sm text-center">
+                                    <img class="img-fluid" src="./image/doorimage.png" alt="Dooricon">
+                                    <div class="dropdown mt-2">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Door 11
+                                        </button>
+                                        <ul class="dropdown-menu text-center">
+                                          <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">View</a></li>
+                                          <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModaltwo">Open</a></li>
+                                          <li><a class="dropdown-item" href="#">Unlock 20 Seconds</a></li>
+                                          <li><a class="dropdown-item" href="#">Normalize</a></li>
+                                        </ul>
+                                      </div>
+                                </div>
+                            </div>
+
+                            <div class="grid_twlv">
+                                <div class="door_main shadow-sm text-center">
+                                    <img class="img-fluid" src="./image/doorimage.png" alt="Dooricon">
+                                    <div class="dropdown mt-2">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Door 12
+                                        </button>
+                                        <ul class="dropdown-menu text-center">
+                                          <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">View</a></li>
+                                          <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModaltwo">Open</a></li>
+                                          <li><a class="dropdown-item" href="#">Unlock 20 Seconds</a></li>
+                                          <li><a class="dropdown-item" href="#">Normalize</a></li>
+                                        </ul>
+                                      </div>
+                                </div>
+                            </div>
+
+                            <div class="grid_thirdtn">
+                                <div class="door_main shadow-sm text-center">
+                                    <img class="img-fluid" src="./image/doorimage.png" alt="Dooricon">
+                                    <div class="dropdown mt-2">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Door 13
+                                        </button>
+                                        <ul class="dropdown-menu text-center">
+                                          <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">View</a></li>
+                                          <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModaltwo">Open</a></li>
+                                          <li><a class="dropdown-item" href="#">Unlock 20 Seconds</a></li>
+                                          <li><a class="dropdown-item" href="#">Normalize</a></li>
+                                        </ul>
+                                      </div>
+                                </div>
+                            </div>
+
+                            <div class="grid_fourtn">
+                                <div class="door_main shadow-sm text-center">
+                                    <img class="img-fluid" src="./image/doorimage.png" alt="Dooricon">
+                                    <div class="dropdown mt-2">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Door 14
+                                        </button>
+                                        <ul class="dropdown-menu text-center">
+                                          <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">View</a></li>
+                                          <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModaltwo">Open</a></li>
+                                          <li><a class="dropdown-item" href="#">Unlock 20 Seconds</a></li>
+                                          <li><a class="dropdown-item" href="#">Normalize</a></li>
+                                        </ul>
+                                      </div>
+                                </div>
+                            </div>
+
+                            <div class="grid_fiftn">
+                                <div class="door_main shadow-sm text-center">
+                                    <img class="img-fluid" src="./image/doorimage.png" alt="Dooricon">
+                                    <div class="dropdown mt-2">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Door 15
+                                        </button>
+                                        <ul class="dropdown-menu text-center">
+                                          <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">View</a></li>
+                                          <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModaltwo">Open</a></li>
+                                          <li><a class="dropdown-item" href="#">Unlock 20 Seconds</a></li>
+                                          <li><a class="dropdown-item" href="#">Normalize</a></li>
+                                        </ul>
+                                      </div>
+                                </div>
+                            </div>
+
+                            <div class="grid_sixtn">
+                                <div class="door_main shadow-sm text-center">
+                                    <img class="img-fluid" src="./image/doorimage.png" alt="Dooricon">
+                                    <div class="dropdown mt-2">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Door 16
+                                        </button>
+                                        <ul class="dropdown-menu text-center">
+                                          <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">View</a></li>
+                                          <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModaltwo">Open</a></li>
+                                          <li><a class="dropdown-item" href="#">Unlock 20 Seconds</a></li>
+                                          <li><a class="dropdown-item" href="#">Normalize</a></li>
+                                        </ul>
+                                      </div>
+                                </div>
+                            </div>
+
+                            <div class="grid_seventn">
+                                <div class="door_main shadow-sm text-center">
+                                    <img class="img-fluid" src="./image/doorimage.png" alt="Dooricon">
+                                    <div class="dropdown mt-2">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Door 17
+                                        </button>
+                                        <ul class="dropdown-menu text-center">
+                                          <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">View</a></li>
+                                          <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModaltwo">Open</a></li>
+                                          <li><a class="dropdown-item" href="#">Unlock 20 Seconds</a></li>
+                                          <li><a class="dropdown-item" href="#">Normalize</a></li>
+                                        </ul>
+                                      </div>
+                                </div>
+                            </div>
+
+                            <div class="grid_eighttn">
+                                <div class="door_main shadow-sm text-center">
+                                    <img class="img-fluid" src="./image/doorimage.png" alt="Dooricon">
+                                    <div class="dropdown mt-2">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Door 18
+                                        </button>
+                                        <ul class="dropdown-menu text-center">
+                                          <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">View</a></li>
+                                          <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModaltwo">Open</a></li>
+                                          <li><a class="dropdown-item" href="#">Unlock 20 Seconds</a></li>
+                                          <li><a class="dropdown-item" href="#">Normalize</a></li>
+                                        </ul>
+                                      </div>
+                                </div>
+                            </div>
+
+                            <div class="grid_nintn">
+                                <div class="door_main shadow-sm text-center">
+                                    <img class="img-fluid" src="./image/doorimage.png" alt="Dooricon">
+                                    <div class="dropdown mt-2">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Door 19
+                                        </button>
+                                        <ul class="dropdown-menu text-center">
+                                          <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">View</a></li>
+                                          <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModaltwo">Open</a></li>
+                                          <li><a class="dropdown-item" href="#">Unlock 20 Seconds</a></li>
+                                          <li><a class="dropdown-item" href="#">Normalize</a></li>
+                                        </ul>
+                                      </div>
+                                </div>
+                            </div>
+
+                            <div class="grid_twenty">
+                                <div class="door_main shadow-sm text-center">
+                                    <img class="img-fluid" src="./image/doorimage.png" alt="Dooricon">
+                                    <div class="dropdown mt-2">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Door 20
+                                        </button>
+                                        <ul class="dropdown-menu text-center">
+                                          <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">View</a></li>
+                                          <li><a class="dropdown-item" href="#">Open</a></li>
+                                          <li><a class="dropdown-item" href="#">Unlock 20 Seconds</a></li>
+                                          <li><a class="dropdown-item" href="#">Normalize</a></li>
+                                        </ul>
+                                      </div>
+                                </div>
+                            </div>
+
+                            <div class="grid_twentyone">
+                                <div class="door_main shadow-sm text-center">
+                                    <img class="img-fluid" src="./image/doorimage.png" alt="Dooricon">
+                                    <div class="dropdown mt-2">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Door 21
+                                        </button>
+                                        <ul class="dropdown-menu text-center">
+                                          <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">View</a></li>
+                                          <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModaltwo">Open</a></li>
+                                          <li><a class="dropdown-item" href="#">Unlock 20 Seconds</a></li>
+                                          <li><a class="dropdown-item" href="#">Normalize</a></li>
+                                        </ul>
+                                      </div>
+                                </div>
+                            </div>
+
+                          </div>
+                
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Device Summary</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="text-center"> 
+                <img class="img-fluid" src="./image/modaldoor.png" alt="">
+              </div>
+              <div class="door_input">
+                <label for="status">Status: </label>
+                <input type="text" placeholder="Secure Door" name="status" id="status">
+              </div>
+              <div class="door_input">
+                <label for="status">Name: </label>
+                <input type="text" placeholder="Door 1" name="status" id="status">
+              </div>
+              <div class="door_input">
+                <label for="status">IP Address: </label>
+                <input type="text" placeholder="69.89.31.226" name="status" id="status">
+              </div>
+              <div class="door_input">
+                <label for="status">Location: </label>
+                <input type="text" placeholder="Zone 1, Building 2, Level 3" name="status" id="status">
+              </div>
+              <div class="door_input">
+                <label for="status">Alarm List: </label>
+                <input type="text" placeholder="3ASF34" name="status" id="status">
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal Two -->
+      <!-- Modal -->
+    <div class="modal fade" id="exampleModaltwo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal_two">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Area Search</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body modaltwo_body">
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="input-group mt-3">
+                            <label for="NVRName">Zone</label>
+                            <input type="text" placeholder="Zone" class="form-control" aria-label="Text input with dropdown button">
+                            <button class="btn btn-outline-secondary dropdown_two dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" style="margin-right: 10px;" width="24" height="12" viewBox="0 0 24 12" fill="none">
+                                <path d="M23.9999 1.99108C24.0008 2.24723 23.9442 2.50032 23.8345 2.73175C23.7247 2.96319 23.5645 3.16708 23.3657 3.32846L13.0809 11.61C12.7742 11.8621 12.3895 12 11.9924 12C11.5954 12 11.2107 11.8621 10.904 11.61L0.619231 3.03698C0.269179 2.74595 0.0490432 2.32774 0.00725332 1.87435C-0.0345366 1.42097 0.105442 0.96955 0.396395 0.619401C0.687348 0.269252 1.10544 0.049057 1.5587 0.00725555C2.01196 -0.0345459 2.46326 0.105471 2.81331 0.396503L12.001 8.06074L21.1887 0.653693C21.4403 0.444027 21.7467 0.310843 22.0716 0.269899C22.3965 0.228955 22.7264 0.281965 23.0221 0.422658C23.3178 0.563351 23.5671 0.785836 23.7404 1.06379C23.9137 1.34174 24.0037 1.66353 23.9999 1.99108Z" fill="#93959F"/>
+                                </svg></button>
+                            <ul class="dropdown-menu dropdown-menu-end text-center">
+                              <li><a class="dropdown-item" href="#">Zone A</a></li>
+                              <li><a class="dropdown-item" href="#">Zone B</a></li>
+                              <li><a class="dropdown-item" href="#">Zone C</a></li>
+                              <li><a class="dropdown-item" href="#">Zone D</a></li>
+                              <li><a class="dropdown-item" href="#">Zone E</a></li>
+                            </ul>
+                          </div>
+                    </div>
+                    <div class="col-md-6 cardh_two">
+                        <div class="input-group mt-3">
+                            <label for="NVRName">Area</label>
+                            <input type="text" placeholder="Area" class="form-control" aria-label="Text input with dropdown button">
+                            <button class="btn btn-outline-secondary dropdown_two dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" style="margin-right: 10px;" width="24" height="12" viewBox="0 0 24 12" fill="none">
+                                <path d="M23.9999 1.99108C24.0008 2.24723 23.9442 2.50032 23.8345 2.73175C23.7247 2.96319 23.5645 3.16708 23.3657 3.32846L13.0809 11.61C12.7742 11.8621 12.3895 12 11.9924 12C11.5954 12 11.2107 11.8621 10.904 11.61L0.619231 3.03698C0.269179 2.74595 0.0490432 2.32774 0.00725332 1.87435C-0.0345366 1.42097 0.105442 0.96955 0.396395 0.619401C0.687348 0.269252 1.10544 0.049057 1.5587 0.00725555C2.01196 -0.0345459 2.46326 0.105471 2.81331 0.396503L12.001 8.06074L21.1887 0.653693C21.4403 0.444027 21.7467 0.310843 22.0716 0.269899C22.3965 0.228955 22.7264 0.281965 23.0221 0.422658C23.3178 0.563351 23.5671 0.785836 23.7404 1.06379C23.9137 1.34174 24.0037 1.66353 23.9999 1.99108Z" fill="#93959F"/>
+                                </svg></button>
+                            <ul class="dropdown-menu dropdown-menu-end text-center">
+                              <li><a class="dropdown-item" href="#">Area A</a></li>
+                              <li><a class="dropdown-item" href="#">Area B</a></li>
+                              <li><a class="dropdown-item" href="#">Area C</a></li>
+                              <li><a class="dropdown-item" href="#">Area D</a></li>
+                              <li><a class="dropdown-item" href="#">Area E</a></li>
+                            </ul>
+                          </div>
+                    </div>
+                </div>
+
+                <div class="row mt-3">
+                    <div class="col-md-6">
+                        <div class="input-group mt-3">
+                            <label for="NVRName">Building</label>
+                            <input type="text" placeholder="Building" class="form-control" aria-label="Text input with dropdown button">
+                            <button class="btn btn-outline-secondary dropdown_two dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" style="margin-right: 10px;" width="24" height="12" viewBox="0 0 24 12" fill="none">
+                                <path d="M23.9999 1.99108C24.0008 2.24723 23.9442 2.50032 23.8345 2.73175C23.7247 2.96319 23.5645 3.16708 23.3657 3.32846L13.0809 11.61C12.7742 11.8621 12.3895 12 11.9924 12C11.5954 12 11.2107 11.8621 10.904 11.61L0.619231 3.03698C0.269179 2.74595 0.0490432 2.32774 0.00725332 1.87435C-0.0345366 1.42097 0.105442 0.96955 0.396395 0.619401C0.687348 0.269252 1.10544 0.049057 1.5587 0.00725555C2.01196 -0.0345459 2.46326 0.105471 2.81331 0.396503L12.001 8.06074L21.1887 0.653693C21.4403 0.444027 21.7467 0.310843 22.0716 0.269899C22.3965 0.228955 22.7264 0.281965 23.0221 0.422658C23.3178 0.563351 23.5671 0.785836 23.7404 1.06379C23.9137 1.34174 24.0037 1.66353 23.9999 1.99108Z" fill="#93959F"/>
+                                </svg></button>
+                            <ul class="dropdown-menu dropdown-menu-end text-center">
+                              <li><a class="dropdown-item" href="#">Building A</a></li>
+                              <li><a class="dropdown-item" href="#">Building B</a></li>
+                              <li><a class="dropdown-item" href="#">Building C</a></li>
+                              <li><a class="dropdown-item" href="#">Building D</a></li>
+                              <li><a class="dropdown-item" href="#">Building E</a></li>
+                            </ul>
+                          </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-group mt-3 margin_res">
+                            <label for="NVRName">Date</label>
+                            <input type="text" placeholder="Date" class="form-control" aria-label="Text input with dropdown button">
+                          </div>
+                    </div>
+                </div>
+
+                <div class="row mt-3">
+                    <div class="col-md-6">
+                        <div class="input-group mt-3">
+                            <label for="NVRName">Level</label>
+                            <input type="text" placeholder="Level" class="form-control" aria-label="Text input with dropdown button">
+                            <button class="btn btn-outline-secondary dropdown_two dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" style="margin-right: 10px;" width="24" height="12" viewBox="0 0 24 12" fill="none">
+                                <path d="M23.9999 1.99108C24.0008 2.24723 23.9442 2.50032 23.8345 2.73175C23.7247 2.96319 23.5645 3.16708 23.3657 3.32846L13.0809 11.61C12.7742 11.8621 12.3895 12 11.9924 12C11.5954 12 11.2107 11.8621 10.904 11.61L0.619231 3.03698C0.269179 2.74595 0.0490432 2.32774 0.00725332 1.87435C-0.0345366 1.42097 0.105442 0.96955 0.396395 0.619401C0.687348 0.269252 1.10544 0.049057 1.5587 0.00725555C2.01196 -0.0345459 2.46326 0.105471 2.81331 0.396503L12.001 8.06074L21.1887 0.653693C21.4403 0.444027 21.7467 0.310843 22.0716 0.269899C22.3965 0.228955 22.7264 0.281965 23.0221 0.422658C23.3178 0.563351 23.5671 0.785836 23.7404 1.06379C23.9137 1.34174 24.0037 1.66353 23.9999 1.99108Z" fill="#93959F"/>
+                                </svg></button>
+                            <ul class="dropdown-menu dropdown-menu-end text-center">
+                              <li><a class="dropdown-item" href="#">Zone A</a></li>
+                              <li><a class="dropdown-item" href="#">Zone B</a></li>
+                              <li><a class="dropdown-item" href="#">Zone C</a></li>
+                              <li><a class="dropdown-item" href="#">Zone D</a></li>
+                              <li><a class="dropdown-item" href="#">Zone E</a></li>
+                            </ul>
+                          </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-group mt-3 margin_res">
+                            <label for="NVRName">Status</label>
+                            <input type="text" placeholder="Status" class="form-control" aria-label="Text input with dropdown button">
+                            <button class="btn btn-outline-secondary dropdown_two dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" style="margin-right: 10px;" width="24" height="12" viewBox="0 0 24 12" fill="none">
+                                <path d="M23.9999 1.99108C24.0008 2.24723 23.9442 2.50032 23.8345 2.73175C23.7247 2.96319 23.5645 3.16708 23.3657 3.32846L13.0809 11.61C12.7742 11.8621 12.3895 12 11.9924 12C11.5954 12 11.2107 11.8621 10.904 11.61L0.619231 3.03698C0.269179 2.74595 0.0490432 2.32774 0.00725332 1.87435C-0.0345366 1.42097 0.105442 0.96955 0.396395 0.619401C0.687348 0.269252 1.10544 0.049057 1.5587 0.00725555C2.01196 -0.0345459 2.46326 0.105471 2.81331 0.396503L12.001 8.06074L21.1887 0.653693C21.4403 0.444027 21.7467 0.310843 22.0716 0.269899C22.3965 0.228955 22.7264 0.281965 23.0221 0.422658C23.3178 0.563351 23.5671 0.785836 23.7404 1.06379C23.9137 1.34174 24.0037 1.66353 23.9999 1.99108Z" fill="#93959F"/>
+                                </svg></button>
+                            <ul class="dropdown-menu dropdown-menu-end text-center">
+                              <li><a class="dropdown-item" href="#">Status A</a></li>
+                              <li><a class="dropdown-item" href="#">Status B</a></li>
+                              <li><a class="dropdown-item" href="#">Status C</a></li>
+                              <li><a class="dropdown-item" href="#">Status D</a></li>
+                              <li><a class="dropdown-item" href="#">Status E</a></li>
+                            </ul>
+                          </div>
+                    </div>
+                </div>
+
+                <div class="d-flex main_box"> 
+                    <div class="unselect_main">
+                        <div class="unselect">
+                            <p>Abdul Rahman</p>
+                            <p>Muhamad Ridzuan</p>
+                            <p>Tommy Lee</p>
+                            <p>Jessical chew</p>
+                            <p>Ananda crishnan</p>
+                            <p>Steven Hui</p>
+                            <p>Lim Guan Yao</p>
+                        </div>
+                        <div class="text-center mt-2">Unselected Card</div>
+                    </div>
+                    <div>
+                        <svg class="arrow_picture" width="27" height="82" viewBox="0 0 27 82" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="27" height="82" fill="#0B2331"/>
+                            <g id="SCREEN 7" clip-path="url(#clip0_329_7703)">
+                            <rect width="1440" height="1048" transform="translate(-706 -684)" fill="white"/>
+                            <rect id="Rectangle 907" opacity="0.4" x="-704" y="-684" width="1440" height="1048" fill="#D9D9D9"/>
+                            <g id="Group 1000008213">
+                            <g id="Group 1000008212">
+                            <g id="Group 1000008169" filter="url(#filter0_d_329_7703)">
+                            <g id="Group 1000007190">
+                            <rect id="Rectangle 669" x="-458" y="-543" width="945" height="891" rx="8" fill="white"/>
+                            </g>
+                            </g>
+                            <g id="Group 1000008211">
+                            <g id="Group 1000008210">
+                            <g id="Vector" filter="url(#filter1_d_329_7703)">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M4 15.5836C4.00011 15.8637 4.15937 16.1376 4.45764 16.3705C4.7559 16.6034 5.17979 16.785 5.6757 16.8922C6.17162 16.9994 6.7173 17.0274 7.24376 16.9728C7.77021 16.9182 8.25382 16.7833 8.63343 16.5852L22.2053 9.50162C22.7141 9.23594 23 8.87566 23 8.5C23 8.12434 22.7141 7.76405 22.2053 7.49838L8.63343 0.414793C8.25382 0.216722 7.77021 0.0818442 7.24375 0.0272044C6.71729 -0.0274354 6.17162 0.000621701 5.6757 0.107824C5.17979 0.215027 4.7559 0.396564 4.45764 0.629486C4.15937 0.86241 4.00011 1.13626 4 1.41641L4 15.5836Z" fill="#0E1231"/>
+                            </g>
+                            <g id="Vector_2" filter="url(#filter2_d_329_7703)">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M23 58.4164C22.9999 58.1363 22.8406 57.8624 22.5424 57.6295C22.2441 57.3966 21.8202 57.215 21.3243 57.1078C20.8284 57.0006 20.2827 56.9726 19.7562 57.0272C19.2298 57.0818 18.7462 57.2167 18.3666 57.4148L4.79473 64.4984C4.28587 64.7641 4 65.1243 4 65.5C4 65.8757 4.28587 66.2359 4.79473 66.5016L18.3666 73.5852C18.7462 73.7833 19.2298 73.9182 19.7562 73.9728C20.2827 74.0274 20.8284 73.9994 21.3243 73.8922C21.8202 73.785 22.2441 73.6034 22.5424 73.3705C22.8406 73.1376 22.9999 72.8637 23 72.5836L23 58.4164Z" fill="#0E1231"/>
+                            </g>
+                            </g>
+                            </g>
+                            </g>
+                            </g>
+                            </g>
+                            <defs>
+                            <filter id="filter0_d_329_7703" x="-469" y="-552" width="966" height="911" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                            <feOffset dy="1"/>
+                            <feGaussianBlur stdDeviation="5"/>
+                            <feComposite in2="hardAlpha" operator="out"/>
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_329_7703"/>
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_329_7703" result="shape"/>
+                            </filter>
+                            <filter id="filter1_d_329_7703" x="0" y="0" width="27" height="25" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                            <feOffset dy="4"/>
+                            <feGaussianBlur stdDeviation="2"/>
+                            <feComposite in2="hardAlpha" operator="out"/>
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_329_7703"/>
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_329_7703" result="shape"/>
+                            </filter>
+                            <filter id="filter2_d_329_7703" x="0" y="57" width="27" height="25" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                            <feOffset dy="4"/>
+                            <feGaussianBlur stdDeviation="2"/>
+                            <feComposite in2="hardAlpha" operator="out"/>
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_329_7703"/>
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_329_7703" result="shape"/>
+                            </filter>
+                            <clipPath id="clip0_329_7703">
+                            <rect width="1440" height="1048" fill="white" transform="translate(-706 -684)"/>
+                            </clipPath>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div class="select_main">
+                        <div class="selectp">
+                            <p>Lincoin Bae</p>
+                        </div>
+                        <div class="text-center mt-2">Selected Card</div>
+                    </div>
+
+                </div>
+
+
+              <div class="mt-5 cu_btn">
+                <button class="btn btn-primary search_btn">Search</button>
+              </div>
+              
+             
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+  </section>
+    
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
